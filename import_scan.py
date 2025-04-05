@@ -1,9 +1,9 @@
 import requests
 import os
 from dotenv import load_dotenv
-import sys #read user input
+import sys 
 
-file_name = sys.argv[1] #get the file name from the user input
+file_name = sys.argv[1] 
 scan_type = ''
 
 if file_name == 'gitleaks.json':
